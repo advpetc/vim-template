@@ -4,8 +4,15 @@
  *
  * Distributed under terms of the %LICENSE% license.
  */
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
-#include "%FILE%.h"
+using namespace std;
 
+int main(int argc, char *argv[]) 
+{
+    %HERE%
+    return 0;
+}
 
-%HERE%
